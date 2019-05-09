@@ -1,0 +1,134 @@
+body
+{
+    margin:0;
+    /* overflow: hidden; */
+}
+.content
+{
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+.profile
+{
+    background-color: red;
+    height: 100%;
+}
+.camilo
+{
+        background: linear-gradient( to right,transparent 50%, white 90% ),  url("img/camilo.jpg");
+}
+.levi
+{
+        background: linear-gradient( to right,transparent 50%, white 90% ),  url("img/levi.jpg");
+}
+.amanda
+{
+        background: linear-gradient( to right,transparent 50%, white 90% ),  url("img/amanda.jpeg");
+
+}
+.jason
+{
+        background: linear-gradient( to right,transparent 50%, white 90% ),  url("img/jason.jpg");
+}
+.nino
+{
+        background: linear-gradient( to right,transparent 50%, white 90% ),  url("img/nino.png");
+}
+.image
+{
+
+background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 553px;
+height: 100vh;
+}
+
+
+
+.interview
+{
+    font-family: Baskerville;
+  font-size: 20px;
+
+ color: #333333;
+    /* background-color: red; */
+    max-width: 553px;
+    height: 100vh;
+    overflow: scroll;
+}
+h3
+{
+    font-family: Gilroy;
+    font-weight: lighter;
+    color: #494741;
+}
+
+ul
+{
+     box-shadow: 0 30px 20px -20px black;
+display: inline-block;
+background-color: #ffe45e;
+border-radius: 20px;
+padding: 20px 20px 20px 50px;
+text-align: right;
+    position: sticky;
+    top: 65%;
+left: 15%;
+    font-size: 2.063em;
+    font-family: Gilroy;
+    font-weight: lighter;
+    color: #494741;
+    list-style: none;
+}
+.table{
+    position: sticky;
+    top: 0px;
+    justify-content: space-around;
+
+    max-width: 1121px;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    background-color:#ffe45e;
+}
+.table h3
+{
+
+
+        font-family: Gilroy;
+        font-size: 2.063em;
+        font-weight: 300;
+        color: #494741;
+
+}
+
+.img
+{
+margin:10px auto 0 auto;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+    background-image: url(img/icon.png);
+
+
+}
+
+.home
+{
+
+width: 80px;
+position: fixed;
+border-radius: 100%;
+top: 80%;
+left: 90%;
+height: 80px;
+    background-color: #ffe45e;
+
+}
+a{
+        text-decoration: none;
+}
