@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Ubuntu|Yanone+Kaffeesatz:200');
+
 body {}
 
 .intro {
     max-width: 940px;
     text-align: right;
-    /* background-color: red; */
+    background-color: red;
     margin: 200px auto 411px auto;
 }
 
 .intro h1 {
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     font-size: 5em;
     text-align: center;
     color: #494741;
@@ -18,7 +20,7 @@ body {}
 
 .intro p {
     text-align: center;
-    font-family: Baskerville;
+    font-family: Libre Baskerville, serif;
     font-size: 1.375em;
     color: #333333;
     margin: 0;
@@ -28,7 +30,7 @@ body {}
     margin: 0;
     padding-right: 20px;
     /* background-color: blue; */
-    font-family: Gilroy;
+    font-family: 'Yanone+Kaffeesatz', sans-serif;
     font-size: 2.063em
     width: 100%;
     color: #494741;
@@ -41,7 +43,7 @@ body {}
 }
 
 .body p {
-    font-family: Baskerville;
+    font-family: Libre Baskerville, serif;
     font-size: 1.375em;
     text-align: center;
 }
@@ -59,8 +61,8 @@ a {
 }
 
 h3 {
-    margin: 0 100px;
-    font-family: Gilroy;
+    margin: 0 70px;
+    font-family: 'Yanone+Kaffeesatz', sans-serif;
     font-size: 2.063em;
     font-weight: 300;
     color: #494741;
