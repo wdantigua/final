@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Ubuntu|Yanone+Kaffeesatz:200');
 
-body {}
+body {
+margin: 300px 20px 130px 20px;
+}
 
 .intro {
     max-width: 940px;
-    text-align: right;
-    background-color: red;
+    /* text-align: right; */
+    /* background-color: red; */
     margin: 200px auto 411px auto;
 }
 
 .intro h1 {
-    font-family: Ubuntu, sans-serif;
+    /* background-color: green; */
+    font-family: "Ubuntu", sans-serif;
     font-size: 5em;
     text-align: center;
     color: #494741;
@@ -20,19 +23,22 @@ body {}
 
 .intro p {
     text-align: center;
-    font-family: Libre Baskerville, serif;
+    font-family:"Libre Baskerville", serif;
     font-size: 1.375em;
     color: #333333;
     margin: 0;
+
 }
 
 .intro h2 {
-    margin: 0;
+text-align: center;
+    margin: 0 auto;
+width: 100%;
     padding-right: 20px;
     /* background-color: blue; */
-    font-family: 'Yanone+Kaffeesatz', sans-serif;
-    font-size: 2.063em
-    width: 100%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2.063em;
+
     color: #494741;
 }
 
@@ -43,9 +49,10 @@ body {}
 }
 
 .body p {
-    font-family: Libre Baskerville, serif;
+    font-family: "Libre Baskerville", serif;
+    font-weight: lighter;
     font-size: 1.375em;
-    text-align: center;
+    text-align: left;
 }
 
 a {
@@ -58,11 +65,15 @@ a {
     max-width: 1121px;
     height: 90px;
     background-color: #ffe45e;
+    transition: height 1s;
+}
+a:hover{
+    height: 120px;
 }
 
 h3 {
     margin: 0 70px;
-    font-family: 'Yanone+Kaffeesatz', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 2.063em;
     font-weight: 300;
     color: #494741;

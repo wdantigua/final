@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+'Libre Baskerville', serif|Ubuntu|Yanone+Kaffeesatz:200');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Ubuntu|Yanone+Kaffeesatz:200');
 
 body
 {
@@ -11,7 +11,7 @@ a{
 }
 h3
 {
-    font-family: 'Yanone+Kaffeesatz', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: lighter;
     color: #494741;
 }
@@ -59,12 +59,17 @@ margin:10px auto 0 auto;
     {
             background: linear-gradient( transparent 50%, white 90% ),  url("img/nino.png");
     }
+    .content{
+        margin-top: 80px;
+    }
     .table{
-
+position: fixed;
+top:0;
+z-index: 1;
         display: flex;
         justify-content: space-around;
         margin:0;
-        max-width: 100%;
+        width: 100vw;
         height: 80px;
         border-radius: 5px;
         background-color:#ffe45e;
@@ -73,7 +78,7 @@ margin:10px auto 0 auto;
     {
 
 
-            font-family: 'Yanone+Kaffeesatz', sans-serif;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
             font-size: 1.5em;
             font-weight: 300;
             color: #494741;
@@ -85,7 +90,7 @@ margin:10px auto 0 auto;
         background-repeat: no-repeat;
         background-position: center;
     width:100vw;
-    height:50vh;
+    height:600px;
     margin: 0;
     }
     ul
@@ -94,12 +99,11 @@ margin:10px auto 0 auto;
 
          box-shadow: 0 30px 20px -20px black;
     background-color: #ffe45e;
-    border-radius: 20px;
     padding: 20px 20px 20px 50px;
     text-align: right;
 
         font-size: 1.9em;
-        font-family: 'Yanone+Kaffeesatz', sans-serif;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
         font-weight: lighter;
         color: #494741;
         list-style: none;
@@ -130,24 +134,31 @@ margin: 0 20px;
 .camilo
 {
         background: linear-gradient( to right,transparent 50%, white 90% ),  url("img/camilo.jpg");
+
 }
 .levi
 {
         background: linear-gradient( to right,transparent 50%, white 90% ),  url("img/levi.jpg");
+
 }
 .amanda
 {
         background: linear-gradient( to right,transparent 50%, white 90% ),  url("img/amanda.jpeg");
 
+
 }
 .jason
 {
         background: linear-gradient( to right,transparent 50%, white 90% ),  url("img/jason.jpg");
+
 }
 .nino
 {
         background: linear-gradient( to right,transparent 50%, white 90% ),  url("img/nino.png");
+
+
 }
+
 .image
 {
 position: fixed;
@@ -180,13 +191,13 @@ ul
      box-shadow: 0 30px 20px -20px black;
 display: inline-block;
 background-color: #ffe45e;
-border-radius: 20px;
+/* border-radius: 20px; */
 padding: 20px 20px 20px 50px;
 text-align: right;
     position: fixed;
     top: 65%;
     font-size: 2.063em;
-    font-family: 'Yanone+Kaffeesatz', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: lighter;
     color: #494741;
     list-style: none;
@@ -206,7 +217,7 @@ z-index: 1;
 {
 
 
-        font-family: 'Yanone+Kaffeesatz', sans-serif;
+        font-family: "Yanone Kaffeesatz", sans-serif;
         font-size: 2.063em;
         font-weight: 300;
         color: #494741;
